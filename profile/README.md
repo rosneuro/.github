@@ -22,7 +22,7 @@ Generic interface for acquiring data from different devices
 
 ### rosneuro_acquisition_plugins
 Official plugins for rosneuro_acquisition
-- [rosneuro/rosneuro_acquisition]_plugins(https://github.com/rosneuro/rosneuro_acquisition_plugins) 
+- [rosneuro/rosneuro_acquisition_plugins](https://github.com/rosneuro/rosneuro_acquisition_plugins) 
 
 ### rosneuro_recorder
 Generic interface for recording neuro data
