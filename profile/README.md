@@ -40,6 +40,17 @@ Generic buffers for neuro data
 Generic filters for neuro data
 - [rosneuro/rosneuro_filters](https://github.com/rosneuro/rosneuro_filters) 
 
+## Installation
+The favorite method to install *ROS-Neuro* is from source by cloning all the available packages in the same workspace and by using `catkin_make install` to install them in the system. However, release 1.0.0 provides also the debian packages to install the different packages. The available debian packages are:
+- [ros-noetic-rosneuro-msgs_1.0.0-0focal_amd64.deb](https://github.com/rosneuro/rosneuro_msgs/releases/download/v1.0.0/ros-noetic-rosneuro-msgs_1.0.0-0focal_amd64.deb)
+- [ros-noetic-rosneuro-data_1.0.0-0focal_amd64.deb](https://github.com/rosneuro/rosneuro_data/releases/download/v1.0.0/ros-noetic-rosneuro-data_1.0.0-0focal_amd64.deb)
+- [ros-noetic-rosneuro-acquisition_1.0.0-0focal_amd64.deb](https://github.com/rosneuro/rosneuro_acquisition/releases/download/v1.0.0/ros-noetic-rosneuro-acquisition_1.0.0-0focal_amd64.deb)
+- [ros-noetic-rosneuro-acquisition-eegdev_1.0.0-0focal_amd64.deb](https://github.com/rosneuro/rosneuro_acquisition_plugins/releases/download/v1.0.0/ros-noetic-rosneuro-acquisition-eegdev_1.0.0-0focal_amd64.deb)
+- [ros-noetic-rosneuro-recorder_1.0.0-0focal_amd64.deb](https://github.com/rosneuro/rosneuro_recorder/releases/download/v1.0.0/ros-noetic-rosneuro-recorder_1.0.0-0focal_amd64.deb)
+- [ros-noetic-rosneuro-visualizer_1.0.0-0focal_amd64.deb](https://github.com/rosneuro/rosneuro_visualizer/releases/download/v1.0.0/ros-noetic-rosneuro-visualizer_1.0.0-0focal_amd64.deb)
+- [ros-noetic-rosneuro-buffers_1.0.0-0focal_amd64.deb](https://github.com/rosneuro/rosneuro_buffers/releases/download/v1.0.0/ros-noetic-rosneuro-buffers_1.0.0-0focal_amd64.deb)
+- [ros-noetic-rosneuro-filters_1.0.0-0focal_amd64.deb](https://github.com/rosneuro/rosneuro_filters/releases/download/v1.0.0/ros-noetic-rosneuro-filters_1.0.0-0focal_amd64.deb)
+
 ## References:
 - Tonin L, Beraldo G, Tortora S, Menegatti E (2022) ROS-Neuro: An Open-Source Platform for Neurorobotics. Front. Neurorobot. 16:886050. doi: 10.3389/fnbot.2022.886050
 - Tonin L, Beraldo G, Tortora S, Tagliapietra L, Millàn JdR et al. (2019). ROS-Neuro: A common middleware for BMI and robotics. The acquisition and recorder packages, in Proc of 2019 IEEE International Conference on Systems, Man and Cybernetics (SMC), 2767–2772
