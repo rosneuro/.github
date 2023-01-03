@@ -51,6 +51,18 @@ The favorite method to install *ROS-Neuro* is from source by cloning all the ava
 - [ros-noetic-rosneuro-buffers_1.0.0-0focal_amd64.deb](https://github.com/rosneuro/rosneuro_buffers/releases/download/v1.0.0/ros-noetic-rosneuro-buffers_1.0.0-0focal_amd64.deb)
 - [ros-noetic-rosneuro-filters_1.0.0-0focal_amd64.deb](https://github.com/rosneuro/rosneuro_filters/releases/download/v1.0.0/ros-noetic-rosneuro-filters_1.0.0-0focal_amd64.deb)
 
+The packages must be installed in the proper order:
+`
+sudo dpkg -i ros-noetic-rosneuro-msgs_1.0.0-0focal_amd64.deb ros-noetic-rosneuro-data_1.0.0-0focal_amd64.deb ros-noetic-rosneuro-acquisition_1.0.0-0focal_amd64.deb ros-noetic-rosneuro-acquisition-eegdev_1.0.0-0focal_amd64.deb ros-noetic-rosneuro-recorder_1.0.0-0focal_amd64.deb ros-noetic-rosneuro-buffers_1.0.0-0focal_amd64.deb ros-noetic-rosneuro-filters_1.0.0-0focal_amd64.deb ros-noetic-rosneuro-visualizer_1.0.0-0focal_amd64.deb
+`
+
+and they can be uninstall as follows:
+`
+sudo dpkg -r ros-noetic-rosneuro-visualizer ros-noetic-rosneuro-filters ros-noetic-rosneuro-buffers ros-noetic-rosneuro-recorder ros-noetic-rosneuro-acquisition-eegdev ros-noetic-rosneuro-acquisition ros-noetic-rosneuro-data ros-noetic-rosneuro-msgs
+`
+
+Be careful that **rosneuro_acquisition_eegdev** depends on **libeegdev-dev** that must be already installed as debian package in the system. It is possible to use the package from neurodebian repository (`apt install libeegdev-dev`), however this does not support *gtec* and *antneuro* devices.
+
 ## References:
 - Tonin L, Beraldo G, Tortora S, Menegatti E (2022) ROS-Neuro: An Open-Source Platform for Neurorobotics. Front. Neurorobot. 16:886050. doi: 10.3389/fnbot.2022.886050
 - Tonin L, Beraldo G, Tortora S, Tagliapietra L, Millàn JdR et al. (2019). ROS-Neuro: A common middleware for BMI and robotics. The acquisition and recorder packages, in Proc of 2019 IEEE International Conference on Systems, Man and Cybernetics (SMC), 2767–2772
