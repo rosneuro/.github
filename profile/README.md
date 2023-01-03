@@ -52,11 +52,13 @@ The favorite method to install *ROS-Neuro* is from source by cloning all the ava
 - [ros-noetic-rosneuro-filters_1.0.0-0focal_amd64.deb](https://github.com/rosneuro/rosneuro_filters/releases/download/v1.0.0/ros-noetic-rosneuro-filters_1.0.0-0focal_amd64.deb)
 
 The packages must be installed in the proper order:
+
 `
 sudo dpkg -i ros-noetic-rosneuro-msgs_1.0.0-0focal_amd64.deb ros-noetic-rosneuro-data_1.0.0-0focal_amd64.deb ros-noetic-rosneuro-acquisition_1.0.0-0focal_amd64.deb ros-noetic-rosneuro-acquisition-eegdev_1.0.0-0focal_amd64.deb ros-noetic-rosneuro-recorder_1.0.0-0focal_amd64.deb ros-noetic-rosneuro-buffers_1.0.0-0focal_amd64.deb ros-noetic-rosneuro-filters_1.0.0-0focal_amd64.deb ros-noetic-rosneuro-visualizer_1.0.0-0focal_amd64.deb
 `
 
 and they can be uninstall as follows:
+
 `
 sudo dpkg -r ros-noetic-rosneuro-visualizer ros-noetic-rosneuro-filters ros-noetic-rosneuro-buffers ros-noetic-rosneuro-recorder ros-noetic-rosneuro-acquisition-eegdev ros-noetic-rosneuro-acquisition ros-noetic-rosneuro-data ros-noetic-rosneuro-msgs
 `
