@@ -31,7 +31,17 @@ Then, install **rosneuro-full:**
 sudo apt-get install ros-noetic-rosneuro-full
 ```
 
-### (1.4 Alternative installation) 
+### 1.4 Update ```rosdep``` list
+Add **ROS-Neuro** packages to the ```rosdep``` list:
+```
+sudo sh -c 'echo "yaml https://rosneuro.github.io/ppa/ubuntu/rosdep-rosneuro-packages.yaml" > /etc/ros/rosdep/sources.list.d/50-rosneuro-packages.list'
+```
+Update ```rosdep```:
+```
+rosdep update
+```
+
+### (1.5 Alternative installation) 
 It is possible to checkout all **ROS-Neuro** packages in the same workspace and to use `catkin_make` and `catkin_make install` to build and install them in the system.
 
 
