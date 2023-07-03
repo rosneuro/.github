@@ -17,7 +17,6 @@ sudo curl -s --compressed -o /etc/apt/sources.list.d/rosneuro.list "https://rosn
 
 ### 1.2 Setup your keys
 ```
-sudo apt install curl # if you haven't already installed curl
 curl -s --compressed "https://rosneuro.github.io/ppa/ubuntu/rosneuro-key.gpg" | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/rosneuro-key.gpg >/dev/null
 ```
 
